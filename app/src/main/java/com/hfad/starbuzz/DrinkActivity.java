@@ -24,7 +24,7 @@ public class DrinkActivity extends Activity {
 //Заполнение изображения напитка
         ImageView photo = (ImageView)findViewById(R.id.photo);
         photo.setImageResource(drink.getImageResourceId());
-        photo.setContentDescription(drink.getName());
+        photo.setContentDescription(drink.getName());//
     }
 }
 
