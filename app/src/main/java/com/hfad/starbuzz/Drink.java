@@ -8,7 +8,7 @@ public class Drink {
     private Drink (String name, String description, int imageResourceId) {
         this.name = name;
         this.description = description;
-        this.imageResourceId = imageResourceId;
+        this.imageResourceId = imageResourceId;//
     }
 
     public static final Drink[] drinks = {
